@@ -21,7 +21,7 @@
     </p>
   </li>
 </ul>
-<h3><b>II-</b><ul>Comparaison méthodes</ul></h3>
+<h3><b>II-</b><u>Comparaison méthodes</u></h3>
 <table>
   <caption>
     Tableau comparatif
