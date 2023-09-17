@@ -39,10 +39,10 @@
     </tr>
     <tr>
       <th scope="row">Ecriture</th>
-      <td><code><form method="get" action="page.html">
-</form></code></td>
-      <td><code><form method="post" action="page.php">
-</form></code></td>
+      <td><code> &lt;form method="get" action="page.html"&gt;
+&lt;/form&gt;</code></td>
+      <td><code>&lt;form method="post" action="page.php"&gt;
+&lt;/form&gt;</code></td>
     </tr>
     <tr>
       <th scope="row">Visibilité</th>
