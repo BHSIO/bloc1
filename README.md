@@ -21,3 +21,38 @@
     </p>
   </li>
 </ul>
+<h3>Comparaison méthodes</h3>
+<table>
+  <caption>
+    Tableau comparatif
+  </caption>
+  <tbody>
+    <tr>
+      <th scope="col">Nom</th>
+      <th scope="col">GET</th>
+      <th scope="col">POST/th>
+    </tr>
+    <tr>
+      <th scope="row">Description</th>
+      <td><q>La méthode GET demande une représentation de la ressource spécifiée. Les requêtes GET doivent uniquement être utilisées afin de récupérer des données.</q></td>
+      <td><q>La méthode POST est utilisée pour envoyer une entité vers la ressource indiquée. Cela entraîne généralement un changement d'état ou des effets de bord sur le serveur.</q></td>
+    </tr>
+    <tr>
+      <th scope="row">Ecriture</th>
+      <td><code><form method="get" action="page.html">
+</form></code></td>
+      <td><code><form method="post" action="page.php">
+</form></code></td>
+    </tr>
+    <tr>
+      <th scope="row">Visibilité</th>
+      <td>Visible pour l’utilisateur dans le champ d’adresse</td>
+      <td>Invisible pour l’utilisateur</td>
+    </tr>
+      <tr>
+      <th scope="row">Comportement lors de l’actualisation du navigateur / Bouton « précédent »</th>
+      <td>Les paramètres de l’URL ne sont pas envoyés à nouveau.</td>
+      <td>Le navigateur avertit que les données du formulaire doivent être renvoyées.</td>
+    </tr>
+  </tbody>
+</table>
