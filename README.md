@@ -2,7 +2,7 @@
 <h1><u>Client Serveur Web - Architecture</u></h1>
 </br>
 </br>
-<h2><b>I-</b><u>Méthodes GET et POST</u></h2>
+<h2><b>I-</b>Méthodes GET et POST</h2>
 <img src="https://images.prismic.io/cryptrfront/5e82fc62-1836-48ba-a074-a1c6ab69264b_SCIM_schema_03_FR.jpg?auto=compress,format" alt="Methodes GET et Post"/>
 </br>
 <p>Comme vue dans le schéma ci dessus on peut différencié la méthode POST et la méthode GET de manière simple :</p>
@@ -21,7 +21,7 @@
     </p>
   </li>
 </ul>
-<h3><b>II-</b><u>Comparaison méthodes</u></h3>
+<h3><b>II-</b>Comparaison méthodes</h3>
 <table>
   <caption>
     Tableau comparatif
