@@ -22,7 +22,7 @@
   </li>
 </ul>
 </br>
-<h3><b>II-</b>Comparaison méthodes</h3>
+<h2><b>II-</b>Comparaison méthodes</h2>
 <table>
   <caption>
     Tableau comparatif
@@ -64,7 +64,7 @@
   <li><b>Mdn web doc</b> pour la définition des méthodes POST & GET : <a url="https://developer.mozilla.org/fr/docs/Web/HTTP/Methods">La page concernée</a></li>
 </ol>
 </br>
-<h4><b>III-</b>Extensible</h4>
+<h2><b>III-</b>Extensible</h2>
 <p>A) <b>Requête HTTP</b></p>
 <p>Une requête HTTP est un ensemble de lignes envoyé au serveur par le navigateur. Elle comprend :</p>
 <ul>
