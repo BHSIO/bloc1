@@ -284,5 +284,6 @@
 <p>Quand un client soumet une requête à un serveur, il informe celui-ci des types de média qu'il comprend et de ses préférences. Concrètement, le client envoie deux en-têtes HTTP. Le premier, <code>Accept-Language</code>, liste les langues reconnues par le client, pondérées par des taux d’acceptabilité</p>
 <p>Source :</p>
 <ul>
-  <li>Source Wikipédia : <a href="https://fr.wikipedia.org/wiki/N%C3%A9gociation_de_contenu#:~:text=automatisant%20la%20s%C3%A9lection.-,Fonctionnement,par%20des%20taux%20d'acceptabilit%C3%A9." alt="lien vers la réponse expliquant le principe de la négociation de contenu http entre client et serveur">Lien de la page</a></li>
+  <li>Source Wikipédia : <a href="https://fr.wikipedia.org/wiki/N%C3%A9gociation_de_contenu#:~:text=automatisant%20la%20s%C3%A9lection.-,Fonctionnement,par%20des%20taux%20d'acceptabilit%C3%A9." alt="lien vers la réponse expliquant le principe de la négociation de contenu http entre client et serveur">Lien de la page</a>
+  </li>
 </ul>
