@@ -14,9 +14,9 @@
   <li><p>La Methode Post quand à elle permet de crée une resource. En effet si on ce réfère au MDN : <q>La méthode POST est un peu différente.C'est la méthode que le navigateur utilise pour demander au serveur une réponse prenant en compte les données contenues dans le corps de la requête HTTP : « Hé serveur ! vois ces données et renvoie-moi le résultat approprié ». Si un formulaire est envoyé avec cette méthode, les données sont ajoutées au corps de la requête HTTP.</q>q </p></li>
   <li><p>Site utilisé comme référence de mes réponses : 
     <ul>
-      <li><b>Crypto.co</b> pour leur schéma des différentes méthodes <a href="https://www.cryptr.co/fr/blog/what-is-scim" target="_blank">leur site</a></li>
+      <li><b>Crypto.co</b> pour leur schéma des différentes méthodes <a href="https://www.cryptr.co/fr/blog/what-is-scim" target="_blank" alt="site expliquant les différentes méthodes">leur site</a></li>
       <li><b>Stackoverflow</b> pour la capture d'ecran qui à illustré la méthode GET</li>
-      <li><b>Mdn web doc</b> pour leur explications sur les méthodes GET et Post : <a href="https://developer.mozilla.org/fr/docs/Learn/Forms/Sending_and_retrieving_form_data" target="_blank">La page concernée</a></li>
+      <li><b>Mdn web doc</b> pour leur explications sur les méthodes GET et Post : <a href="https://developer.mozilla.org/fr/docs/Learn/Forms/Sending_and_retrieving_form_data" target="_blank" alt="lien vers le site web de Mdn web doc">La page concernée</a></li>
     </ul>
     </p>
   </li>
@@ -59,9 +59,9 @@
 </table>
 <p>Source :</p>
 <ol>
-  <li><b>Xul.fr</b> pour le code d'écriture des méthodes POST & GET : <a url="https://www.xul.fr/ecmascript/get-post.php">La page concernée</a></li>
-  <li><b>Ionos</b> pour une partie de leur tableau de comparaison des méthodes POST & GET : <a url="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/">La page concernée</a></li>
-  <li><b>Mdn web doc</b> pour la définition des méthodes POST & GET : <a url="https://developer.mozilla.org/fr/docs/Web/HTTP/Methods">La page concernée</a></li>
+  <li><b>Xul.fr</b> pour le code d'écriture des méthodes POST & GET : <a url="https://www.xul.fr/ecmascript/get-post.php" alt="lien vers la page site xul parlant des codes d'écritures des méthodes POST et GET ">La page concernée</a></li>
+  <li><b>Ionos</b> pour une partie de leur tableau de comparaison des méthodes POST & GET : <a url="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/" alt="lien vers la page ionos représentant le tableau de comparaison des méthodes GET et POST">La page concernée</a></li>
+  <li><b>Mdn web doc</b> pour la définition des méthodes POST & GET : <a url="https://developer.mozilla.org/fr/docs/Web/HTTP/Methods" alt="lien vers la définition des méthodes POST et GET">La page concernée</a></li>
 </ol>
 </br>
 <h2><b>III-</b>Extensible</h2>
@@ -93,7 +93,7 @@
 </ul>
 <p>Source :</p>
 <ul>
-  <li>L'ensemble de la réponse est basé sur l'article de Comment ça marche : <a href="https://www.commentcamarche.net/informatique/technologies/26181-protocole-http-principe-de-fonctionnement/">Lien de la page</a></li>
+  <li>L'ensemble de la réponse est basé sur l'article de Comment ça marche : <a href="https://www.commentcamarche.net/informatique/technologies/26181-protocole-http-principe-de-fonctionnement/" alt="lien vers le site comment ça marche qui décrit en quoi le protocole http est extensible.">Lien de la page</a></li>
 </ul>
 </br>
 <h2><b>IV-</b> Sans Etat</h2>
@@ -101,7 +101,7 @@
 </p>
 <p>Source :</p>
 <ul>
-  <li>La réponse est bassée sur les informations comprise dans la fiche wikipédia : <a href="https://fr.wikipedia.org/wiki/Protocole_sans_%C3%A9tat">Lien de la page</a></li>
+  <li>La réponse est bassée sur les informations comprise dans la fiche wikipédia : <a href="https://fr.wikipedia.org/wiki/Protocole_sans_%C3%A9tat" alt="lien vers la page expliquant ce que signifie le fait qu’http soit qualifié de protocole sans état.">Lien de la page</a></li>
 </ul>
 </br>
 <h2><b>V-</b> URL</h2>
@@ -118,7 +118,7 @@
   <li>Le nom de domaine principal</li>
   <p>Dans notre exemple, le nom de domaine est : mondomaine</p>
 </br>
-  <li>Le domaine de deuxième niveau</li>7
+  <li>Le domaine de deuxième niveau</li>
   <p>Dans notre exemple, le domaine de deuxième niveau est : .com</p>
 </br>
   <li>Le répertoire</li>
@@ -128,10 +128,10 @@
 </br>
 <p>Source :</p>
 <ul>
-  <li>La décomposition d'une URL est tiré d'un article de digital Mym : <a href="https://digitalmym.com/les-differentes-parties-dune-url/">Lien de la page</a></li>
+  <li>La décomposition d'une URL est tiré d'un article de digital Mym : <a href="https://digitalmym.com/les-differentes-parties-dune-url/" alt="lien vers la page détaillant une URL">Lien de la page</a></li>
 </ul>
 </br>
-<h2>Codes Status</h2>
+<h2><b>VI-</b> Codes Status</h2>
 </br>
 <table>
   <caption>
@@ -275,3 +275,14 @@
     </tr>
   </tbody>
 </table>
+<p>Source:</p>
+<ul>
+  <li>Liste extraite de comment ça marche: <a href="https://www.commentcamarche.net/informatique/technologies/26181-protocole-http-principe-de-fonctionnement/" alt="lien vers l'ensemble des codes d'erreurs">Lien de la page</a></li>
+</ul>
+</br>
+<h2>VII- Negociation de contenue</h2>
+<p>Quand un client soumet une requête à un serveur, il informe celui-ci des types de média qu'il comprend et de ses préférences. Concrètement, le client envoie deux en-têtes HTTP. Le premier, <code>Accept-Language</code>, liste les langues reconnues par le client, pondérées par des taux d’acceptabilité</p>
+<p>Source :</p>
+<ul>
+  <li>Source Wikipédia : <a href="https://fr.wikipedia.org/wiki/N%C3%A9gociation_de_contenu#:~:text=automatisant%20la%20s%C3%A9lection.-,Fonctionnement,par%20des%20taux%20d'acceptabilit%C3%A9." alt="lien vers la réponse expliquant le principe de la négociation de contenu http entre client et serveur">Lien de la page</a></li>
+</ul>
