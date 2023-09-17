@@ -95,3 +95,183 @@
 <ul>
   <li>L'ensemble de la réponse est basé sur l'article de Comment ça marche : <a href="https://www.commentcamarche.net/informatique/technologies/26181-protocole-http-principe-de-fonctionnement/">Lien de la page</a></li>
 </ul>
+</br>
+<h2><b>IV-</b> Sans Etat</h2>
+<p>En informatique, un protocole sans état (en anglais <i>stateless protocol</i>) est un protocole de communication qui n'enregistre pas l'état d'une session de communication entre deux requêtes successives. La communication est formée de paires requête-réponse indépendantes et chaque paire requête-réponse est traitée comme une transaction indépendante, sans lien avec les requêtes précédentes ou suivantes. Autrement dit, un protocole sans état ne nécessite pas que le serveur conserve, au cours de la session de communication, l'état de chacun des partenaires. A contrario, un protocole qui impose la conservation des informations sur l'état interne du serveur est appelé protocole avec état (en anglais <i>stateful protocol</i>).
+</p>
+<p>Source :</p>
+<ul>
+  <li>La réponse est bassée sur les informations comprise dans la fiche wikipédia : <a href="https://fr.wikipedia.org/wiki/Protocole_sans_%C3%A9tat">Lien de la page</a></li>
+</ul>
+</br>
+<h2><b>V-</b> URL</h2>
+<p>Une URL est composée de 5 parties; le protocole, le sous-domaine, le nom de domaine principal, le domaine de deuxième niveau (SLD – Second-level Domain en anglais) et le répertoire développons le :</p>
+<ul>
+  <li>Le protocole</li>
+  <p>Prenons comme exemple l’adresse suivante : https://www.mondomaine.com/contact</p>
+</br>
+  <p>Dans cet exemple, le protocole est: https://</p>
+</br>  
+  <li>Le sous-domaine</li>
+  <p>Dans notre exemple, le sous-domaine est : www.</p>
+</br>
+  <li>Le nom de domaine principal</li>
+  <p>Dans notre exemple, le nom de domaine est : mondomaine</p>
+</br>
+  <li>Le domaine de deuxième niveau</li>7
+  <p>Dans notre exemple, le domaine de deuxième niveau est : .com</p>
+</br>
+  <li>Le répertoire</li>
+  <p>Dans notre exemple, le répertoire est : /contact</p>
+</br>
+</ul>
+</br>
+<p>Source :</p>
+<ul>
+  <li>La décomposition d'une URL est tiré d'un article de digital Mym : <a href="https://digitalmym.com/les-differentes-parties-dune-url/">Lien de la page</a></li>
+</ul>
+</br>
+<h2>Codes Status</h2>
+</br>
+<table>
+  <caption>
+    Les Codes status
+  </caption>
+  <tbody>
+    <tr>
+      <th scope="col">Code</th>
+      <th scope="col">Message</th>
+      <th scope="col">Description</th>
+    </tr>
+    <tr>
+      <th scope="row">10x</th>
+      <td>Message d'information</td>
+      <td>Ces codes ne sont pas utilisés dans la version 1.0 du protocole</td>
+    </tr>
+    <tr>
+      <th scope="row"><b>20x</b></th>
+      <td><b>Réussite</b></td>
+      <td><b>Ces codes indiquent le bon déroulement de la transaction</b></td>
+    </tr>
+    <tr>
+      <th scope="row">200</th>
+      <td>OK</td>
+      <td>La requête a été accomplie correctement</td>
+    </tr>
+    <tr>
+      <th scope="row">201</th>
+      <td>CREATED</td>
+      <td>Elle suit une commande POST, elle indique la réussite, le corps du reste du document est sensé indiquer l'URL à laquelle le document nouvellement créé devrait se trouver.</td>
+    </tr>
+    <tr>
+      <th scope="row">202</th>
+      <td>ACCEPTED</td>
+      <td>La requête a été acceptée, mais la procédure qui suit n'a pas été accomplie</td>
+    </tr>
+    <tr>
+      <th scope="row">203</th>
+      <td>PARTIAL INFORMATION</td>
+      <td>Lorsque ce code est reçu en réponse à une commande GET, cela indique que la réponse n'est pas complète.</td>
+    </tr>
+    <tr>
+      <th scope="row">204</th>
+      <td>NO RESPONSE</td>
+      <td>Le serveur a reçu la requête mais il n'y a pas d'information à renvoyer</td>
+    </tr>
+    <tr>
+      <th scope="row">205</th>
+      <td>RESET CONTENT</td>
+      <td>Le serveur indique au navigateur de supprimer le contenu des champs d'un formulaire</td>
+    </tr>
+    <tr>
+      <th scope="row">206</th>
+      <td>PARTIAL CONTENT</td>
+      <td>Il s'agit d'une réponse à une requête comportant l'en-tête range. Le serveur doit indiquer l'en-tête content-Range</td>
+    </tr>
+    <tr>
+      <th scope="row"><b>30x</b></th>
+      <td><b>Redirection</b></td>
+      <td><b>Ces codes indiquent que la ressource n'est plus à l'emplacement indiqué</b></td>
+    </tr>
+    <tr>
+      <th scope="row">301</th>
+      <td>MOVED</td>
+      <td>Les données demandées ont été transférées à une nouvelle adresse</td>
+    </tr>
+    <tr>
+      <th scope="row">302</th>
+      <td>FOUND</td>
+      <td>Les données demandées sont à une nouvelle URL, mais ont cependant peut-être été déplacées depuis..</td>
+    </tr>
+    <tr>
+      <th scope="row">303</th>
+      <td>METHOD</td>
+      <td>Cela implique que le client doit essayer une nouvelle adresse, en essayant de préférence une autre méthode que GET</td>
+    </tr>
+    <tr>
+      <th scope="row">304</th>
+      <td>NOT MODIFIED</td>
+      <td>Si le client a effectué une commande GET conditionnelle (en demandant si le document a été modifié depuis la dernière fois) et que le document n'a pas été modifié il renvoie ce code.</td>
+    </tr>
+    <tr>
+      <th scope="row"><b>40x</b></th>
+      <td><b>Erreur due au client</b></td>
+      <td><b>Ces codes indiquent que la requête est incorrecte</b></td>
+    </tr>
+    <tr>
+      <th scope="row">400</th>
+      <td>BAD REQUEST</td>
+      <td>La syntaxe de la requête est mal formulée ou est impossible à satisfaire</td>
+    </tr>
+    <tr>
+      <th scope="row">401</th>
+      <td>UNAUTHORIZED</td>
+      <td>Le paramètre du message donne les spécifications des formes d'autorisation acceptables. Le client doit reformuler sa requête avec les bonnes données d'autorisation</td>
+    </tr>
+    <tr>
+      <th scope="row">402</th>
+      <td>PAYMENT REQUIRED</td>
+      <td>Le client doit reformuler sa demande avec les bonnes données de paiement</td>
+    </tr>
+    <tr>
+      <th scope="row">403</th>
+      <td>FORBIDDEN</td>
+      <td>L'accès à la ressource est tout simplement interdit</td>
+    </tr>
+    <tr>
+      <th scope="row">404</th>
+      <td>NOT FOUND</td>
+      <td>Le serveur n'a rien trouvé à l'adresse spécifiée</td>
+    </tr>
+    <tr>
+      <th scope="row"><b>50x</b></th>
+      <td><b>NOT FOUND</b></td>
+      <td><b>Le serveur n'a rien trouvé à l'adresse spécifiée</b></td>
+    </tr>
+    <tr>
+      <th scope="row">500</th>
+      <td>INTERNAL ERROR</td>
+      <td>Le serveur a rencontré une condition inattendue qui l'a empêché de donner suite à la demande (comme quoi il leur en arrive des trucs aux serveurs...)</td>
+    </tr>
+    <tr>
+      <th scope="row">501</th>
+      <td>NOT IMPLEMENTED</td>
+      <td>Le serveur ne supporte pas le service demandé (on ne peut pas tout savoir faire...)</td>
+    </tr>
+    <tr>
+      <th scope="row">502</th>
+      <td>BAD GATEWAY</td>
+      <td>Le serveur a reçu une réponse invalide de la part du serveur auquel il essayait d'accéder en agissant comme une passerelle ou un proxy</td>
+    </tr>
+    <tr>
+      <th scope="row">503</th>
+      <td>SERVICE UNAVAILABLE</td>
+      <td>Le serveur ne peut pas vous répondre à l'instant présent, car le trafic est trop dense (toutes les lignes de votre correspondant sont occupées veuillez rappeler ultérieurement)</td>
+    </tr>
+    <tr>
+      <th scope="row">504</th>
+      <td>GATEWAY TIMEOUT</td>
+      <td>La réponse du serveur a été trop longue vis-à-vis du temps pendant lequel la passerelle était préparée à l'attendre (le temps qui vous était imparti est maintenant écoulé...)</td>
+    </tr>
+  </tbody>
+</table>
