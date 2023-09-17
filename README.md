@@ -13,11 +13,11 @@
 </br>
   <li><p>La Methode Post quand à elle permet de crée une resource. En effet si on ce réfère au MDN : <q>La méthode POST est un peu différente.C'est la méthode que le navigateur utilise pour demander au serveur une réponse prenant en compte les données contenues dans le corps de la requête HTTP : « Hé serveur ! vois ces données et renvoie-moi le résultat approprié ». Si un formulaire est envoyé avec cette méthode, les données sont ajoutées au corps de la requête HTTP.</q>q </p></li>
   <li><p>Site utilisé comme référence de mes réponses : 
-    <ol>
+    <ul>
       <li><b>Crypto.co</b> pour leur schéma des différentes méthodes <a href="https://www.cryptr.co/fr/blog/what-is-scim" target="_blank">leur site</a></li>
       <li><b>Stackoverflow</b> pour la capture d'ecran qui à illustré la méthode GET</li>
       <li><b>Mdn web doc</b> pour leur explications sur les méthodes GET et Post : <a href="https://developer.mozilla.org/fr/docs/Learn/Forms/Sending_and_retrieving_form_data" target="_blank">La page concernée</a></li>
-    </ol>
+    </ul>
     </p>
   </li>
 </ul>
