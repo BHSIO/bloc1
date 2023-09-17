@@ -21,6 +21,7 @@
     </p>
   </li>
 </ul>
+</br>
 <h3><b>II-</b>Comparaison méthodes</h3>
 <table>
   <caption>
@@ -62,3 +63,35 @@
   <li><b>Ionos</b> pour une partie de leur tableau de comparaison des méthodes POST & GET : <a url="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/">La page concernée</a></li>
   <li><b>Mdn web doc</b> pour la définition des méthodes POST & GET : <a url="https://developer.mozilla.org/fr/docs/Web/HTTP/Methods">La page concernée</a></li>
 </ol>
+</br>
+<h4><b>III-</b>Extensible</h4>
+<p>A) <b>Requête HTTP</b></p>
+<p>Une requête HTTP est un ensemble de lignes envoyé au serveur par le navigateur. Elle comprend :</p>
+<ul>
+  <li><b>Une ligne de requête</b>: c'est une ligne précisant le type de document demandé, la méthode qui doit être appliquée, et la version du protocole utilisée. La ligne comprend trois éléments devant être séparés par un espace :
+  <ul>
+    <li>La méthode</li>
+    <li>L'URL</li>
+    <li>La version du protocole utilisé par le client</li>
+  </ul>
+  <li><b>Les champs d'en-tête de la requête</b>: il s'agit d'un ensemble de lignes facultatives permettant de donner des informations supplémentaires sur la requête et/ou le client (Navigateur, système d'exploitation, ...). Chacune de ces lignes est composée d'un nom qualifiant le type d'en-tête, suivi de deux points (:) et de la valeur de l'en-tête</li>
+  </li>
+  <li><b>Le corps de la requête:</b> c'est un ensemble de lignes optionnelles devant être séparées des lignes précédentes par une ligne vide et permettant par exemple un envoi de données par une commande POST lors de l'envoi de données au serveur par un formulaire</li>
+</ul>
+<p>B) <b>Réponse HTTP</b></p>
+<p>Une réponse HTTP est un ensemble de lignes envoyées au navigateur par le serveur. Elle comprend :</p>
+<ul>
+  <li><b>Une ligne de statut</b>: c'est une ligne précisant la version du protocole utilisé et l'état du traitement de la requête à l'aide d'un code et d'un texte explicatif. La ligne comprend trois éléments devant être séparés par un espace :
+  <ul>
+    <li>La version du protocole utilisé</li>
+    <li>Le code de statut</li>
+    <li>La signification du code</li>
+  </ul>
+    <li><b>Les champs d'en-tête de la réponse</b>: il s'agit d'un ensemble de lignes facultatives permettant de donner des informations supplémentaires sur la réponse et/ou le serveur. Chacune de ces lignes est composée d'un nom qualifiant le type d'en-tête, suivi de deux points (:) et de la valeur de l'en-tête</li>
+  </li>
+  <li><b>Le corps de la réponse</b>: il contient le document demandé</li>
+</ul>
+<p>Source :</p>
+<ul>
+  <li>L'ensemble de la réponse est basé sur l'article de Comment ça marche : <a href="https://www.commentcamarche.net/informatique/technologies/26181-protocole-http-principe-de-fonctionnement/">Lien de la page</a></li>
+</ul>
