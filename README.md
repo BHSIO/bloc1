@@ -287,3 +287,6 @@
   <li>Source Wikipédia : <a href="https://fr.wikipedia.org/wiki/N%C3%A9gociation_de_contenu#:~:text=automatisant%20la%20s%C3%A9lection.-,Fonctionnement,par%20des%20taux%20d'acceptabilit%C3%A9." alt="lien vers la réponse expliquant le principe de la négociation de contenu http entre client et serveur">Lien de la page</a>
   </li>
 </ul>
+<h2><b>VIII -</b> Installation Apache & configuration</h2>
+<img src="https://image.noelshack.com/fichiers/2023/38/2/1695149035-xampp0.png" alt="Etape une pour setup un xampp"/>
+<img src="https://image.noelshack.com/fichiers/2023/38/2/1695149035-xampp1.png" alt="Etape deux pour setup un xampp"/>
