@@ -59,9 +59,9 @@
 </table>
 <p>Source :</p>
 <ol>
-  <li><b>Xul.fr</b> pour le code d'écriture des méthodes POST & GET : <a url="https://www.xul.fr/ecmascript/get-post.php" alt="lien vers la page site xul parlant des codes d'écritures des méthodes POST et GET ">La page concernée</a></li>
-  <li><b>Ionos</b> pour une partie de leur tableau de comparaison des méthodes POST & GET : <a url="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/" alt="lien vers la page ionos représentant le tableau de comparaison des méthodes GET et POST">La page concernée</a></li>
-  <li><b>Mdn web doc</b> pour la définition des méthodes POST & GET : <a url="https://developer.mozilla.org/fr/docs/Web/HTTP/Methods" alt="lien vers la définition des méthodes POST et GET">La page concernée</a></li>
+  <li><b>Xul.fr</b> pour le code d'écriture des méthodes POST & GET : <a url="https://www.xul.fr/ecmascript1/get-post.php" alt="lien vers la page site xul parlant des codes d'écritures des méthodes POST et GET ">La page concernée</a></li>
+  <li><b>Ionos</b> pour une partie de leur tableau de comparaison des méthodes POST & GET : <a url="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/1" alt="lien vers la page ionos représentant le tableau de comparaison des méthodes GET et POST">La page concernée</a></li>
+  <li><b>Mdn web doc</b> pour la définition des méthodes POST & GET : <a url="https://developer.mozilla.org/fr/docs/Web/HTTP/Methods/1" alt="lien vers la définition des méthodes POST et GET">La page concernée</a></li>
 </ol>
 </br>
 <h2><b>III-</b>Extensible</h2>
