@@ -1,0 +1,16 @@
+h2{
+    color: #5d8f47;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.ColorRed{
+    color: #ea9999;
+}
+.ColorBlue{
+   color: #53bef5; 
+}
+a{
+    color: #53bef5;
+    text-decoration: none;
+}
