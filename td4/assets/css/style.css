@@ -1,0 +1,10 @@
+.brown {
+    color: #9a3604;
+}
+.grey {
+    background-color: #eae9e6;
+}
+.grey bloc {
+    display: flex;
+    justify-content: center;
+}
