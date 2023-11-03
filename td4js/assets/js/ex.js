@@ -3,9 +3,9 @@ function mybck() {
 }
 
 function option() {
-  var input = document.getElementById("text").value;
-  var x = document.getElementById("mySelect");
-  var option = document.createElement("option");
+  let input = document.getElementById("text").value;
+  let x = document.getElementById("mySelect");
+  let option = document.createElement("option");
   option.text = input ;
   x.add(option);
 }
@@ -14,7 +14,7 @@ function adde() {
   const nbun = parseInt(document.getElementById("nb1").value);
   const nbdeux = parseInt(document.getElementById("nb2").value);
 
-  var somme = document.createElement("somme");
+  let somme = document.createElement("somme");
   somme.innerHTML = Number(nbdeux+nbun);
   document.body.appendChild(somme);
 }
@@ -37,8 +37,8 @@ function mouseOver() {
 function mouseOut() {
   document.getElementById("mouseover").style.color = "black";
 }
-var timerID = null;
-var timerActif = false;
+let timerID = null;
+let timerActif = false;
 
 function stopClock() {
   if (timerActif) clearTimeout(timerID);
@@ -51,10 +51,10 @@ function startClock() {
 }
 
 function showtime() {
-  var now = new Date();
-  var hour = now.getHours();
-  var min = now.getMinutes();
-  var sec = now.getSeconds();
+  let now = new Date();
+  let hour = now.getHours();
+  let min = now.getMinutes();
+  let sec = now.getSeconds();
   heure = (hour > 9? hour:"0" + hour);
   heure += ":" + (min > 9? min:"0" + min);
   heure += ":" + (sec > 9? sec:"0" + sec);
