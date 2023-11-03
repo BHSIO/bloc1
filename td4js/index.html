@@ -5,7 +5,7 @@
         <title>JS exemples</title>
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
-    <body>
+    <body onLoad="startClock()" onUnLoad="stopClock()">
         <h1>Exemples Js</h1>
         <script>
            /* alert("wesh ta vue");*/
@@ -35,8 +35,25 @@
           <input type="number" id="nb1">
           <input type="number" id="nb2">
           <button type="button" onclick="adde()">Faire la somme</button>
-          <p id="somme"></p>
-        <footer>
+          <div id="addition">
+            <p id="somme"></p>
+          </div>
+
+          <h2>Exercice 1 - Images</h2>
+
+          <img class="img" src="https://dirask.com/static/bucket/1631898942509-VMYrnXyYZv--image.png" onclick="changeImage(this)" />
+
+          <h2>Exerrcice 1 - mouse hover</h2>
+          <img class="img" src="https://cdn.pixabay.com/photo/2023/10/04/18/49/pizza-8294340_1280.png" id="mouseover">
+          
+          <h2>Exercie 1 - Horloge</h2>
+        
+          <form name="Clock">
+           
+            <p><input type="text" name="Horloge" size="8" style="font-family: Courier New"></p>
+          
+            </form>
+          <footer>
             <script type="text/javascript" src="assets/js/ex.js"></script>
         </footer>
     </body>
