@@ -64,3 +64,20 @@ function showtime() {
   timerID = setTimeout("showtime()",1000);
   timerActif = true;
 }
+let hide = document.getElementById("hide");
+let pop = document.getElementById("pop");
+hide.addEventListener("click", () => {
+  if(getComputedStyle(pop).display != "none"){
+    pop.style.display = "none";
+  } else {
+    pop.style.display = "block";
+  }
+})
+function form() {
+  let nom = getElementById("nom");
+  let prenom = getElementById("prenom");
+  let email = getElementById("email");
+  let txt = getElementById("txt");
+
+  console.log('Votre nom : '+ nom +'votre prenom :'+ prenom + 'votre email : '+ email + "votre message : " + txt);
+}
