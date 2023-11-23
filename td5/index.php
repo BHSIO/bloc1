@@ -75,12 +75,14 @@ $a=[
 </form>
 <p><?php
 $nbpar=$_GET['par']??1;
-var_dump($_GET);
-for($i;$i<count($a);$i++){
-  if($nbpar<=5){
+//var_dump($_GET);
+//var_dump($a);
+
+for($i=0;$i<count($a);$i++){
+  if($nbpar<=4){
   echo "<br>$a[$nbpar]<br>";
   }else{
-    $a[$nbpar] = rand($a[0],$a[5]);
+    $a[$nbpar] = $a[rand(0,4)];
     echo "<br>$a[$nbpar]<br>";
   }
 }
